@@ -623,6 +623,11 @@ namespace Valve.VR.InteractionSystem
 		}
 
 
+        public Vector3 GetTeleportPointerPosition()
+        {
+            return telePosition;
+        }
+
 		//-------------------------------------------------
 		private void HidePointer()
 		{
