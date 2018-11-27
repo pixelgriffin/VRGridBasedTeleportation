@@ -114,10 +114,11 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 --- !u!114 &102309625 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11465950, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+  m_CorrespondingSourceObject: {fileID: 11465950, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
   m_PrefabInstance: {fileID: 1219976998}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1495416477}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 202a6e24b48d1684398409c47161adcb, type: 3}
@@ -7965,7 +7966,8 @@ Mesh:
     path: 
 --- !u!1 &1432362394 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 153878, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+  m_CorrespondingSourceObject: {fileID: 153878, guid: 7a135b1a2cb9c8f488d4dd00c55ab283,
+    type: 3}
   m_PrefabInstance: {fileID: 2094794236}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1432362395
@@ -7990,7 +7992,8 @@ MonoBehaviour:
   p: {fileID: 102309625}
 --- !u!114 &1432362397 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+  m_CorrespondingSourceObject: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283,
+    type: 3}
   m_PrefabInstance: {fileID: 2094794236}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432362394}
@@ -8125,6 +8128,27 @@ MonoBehaviour:
   p: {fileID: 102309625}
   speed: 2
   gazePointer: {fileID: 129459469}
+--- !u!1 &1495416477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1219976998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1495416479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495416477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb4ac09beb25c694d9b6f0325bd97fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragAction: {fileID: 11400000, guid: dc9e66e2f9427454b89f4e3776a8abfb, type: 2}
+  player: {fileID: 102309625}
+  allowHorizontalMotion: 1
 --- !u!43 &1653385423
 Mesh:
   m_ObjectHideFlags: 0
@@ -8287,7 +8311,8 @@ Mesh:
     path: 
 --- !u!4 &1681132003 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+  m_CorrespondingSourceObject: {fileID: 429506, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 3}
   m_PrefabInstance: {fileID: 1219976998}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &1790793820
@@ -9280,6 +9305,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
+      propertyPath: traceLayerMask.m_Bits
+      value: 307
+      objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9311,14 +9344,6 @@ PrefabInstance:
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11445746, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
-      propertyPath: traceLayerMask.m_Bits
-      value: 307
       objectReference: {fileID: 0}
     - target: {fileID: 11445956, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 3}
       propertyPath: m_Enabled
