@@ -86,6 +86,13 @@
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_Generator.cs" />
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_LiveWindow.cs" />
     <Compile Include="Assets\SteamVR\Input\Editor\SteamVR_Input_PostProcessBuild.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingMobileEditor.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProEditorBase.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProEditorUtils.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProImageEditor.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProPresetEditor.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProPresetEditorBase.cs" />
+    <Compile Include="Assets\VrTunnellingPro-Unity-master\Editor\VrTunnellingProPresetMobileEditor.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Users/savag/Documents/VRGridBasedTeleportation/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>

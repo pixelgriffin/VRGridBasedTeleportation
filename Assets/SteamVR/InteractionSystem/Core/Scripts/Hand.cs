@@ -57,6 +57,9 @@ namespace Valve.VR.InteractionSystem
         [SteamVR_DefaultAction("InteractUI")]
         public SteamVR_Action_Boolean uiInteractAction;
 
+        [SteamVR_DefaultAction("Drag")]
+        public SteamVR_Action_Vector2 trackpadAction;
+
         public bool useHoverSphere = true;
         public Transform hoverSphereTransform;
         public float hoverSphereRadius = 0.05f;
@@ -87,6 +90,8 @@ namespace Valve.VR.InteractionSystem
         public bool showDebugText = false;
         public bool spewDebugText = false;
         public bool showDebugInteractables = false;
+
+        public bool hoveringGUI = false;
 
         public struct AttachedObject
         {
